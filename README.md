@@ -1,6 +1,6 @@
 Commands to start the project:
 
-    git clone https://github.com/mirzafar/audio-generate
+    git clone https://github.com/TulparTeamm/audio-generate
 
     pipenv install --python 3.8
 
