@@ -12,7 +12,7 @@ class App:
     class Config:
         ACCESS_LOG = False
         DB_HOST = settings.get('db', {}).get('host', '127.0.0.1')
-        DB_DATABASE = settings.get('db', {}).get('database', 'kenes')
+        DB_DATABASE = settings.get('db', {}).get('database', 'nurorda')
         DB_PORT = settings.get('db', {}).get('port', 5432)
         DB_USER = settings.get('db', {}).get('user', 'root')
         DB_PASSWORD = settings.get('db', {}).get('password', 'X$@ABN^')
